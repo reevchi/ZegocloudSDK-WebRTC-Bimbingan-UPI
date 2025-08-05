@@ -1,5 +1,4 @@
 import { EuiComboBox, EuiFormRow } from "@elastic/eui";
-import React from "react";
 
 
 function MeetingUsersField({
@@ -26,5 +25,6 @@ function MeetingUsersField({
             isInvalid={isInvalid} />
     </EuiFormRow>;
 }
+
 
 export default MeetingUsersField;

@@ -1,4 +1,4 @@
-import { EuiFlexGrid, EuiFlexGroup, EuiFlexItem, EuiForm, EuiSpacer } from "@elastic/eui";
+import { EuiFlexGroup, EuiFlexItem, EuiForm, EuiSpacer } from "@elastic/eui";
 import React, { useState } from "react";
 import MeetingNameField from "../../components/FormComponents/MeetingNameField";
 import MeetingUsersField from "../../components/FormComponents/MeetingUsersField";
@@ -135,5 +135,6 @@ function OneOnOneMeeting() {
     </div>
     );
 }
+
 
 export default OneOnOneMeeting; 

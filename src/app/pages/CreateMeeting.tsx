@@ -1,4 +1,3 @@
-import React from "react";
 import useAuth from "../../hooks/useAuth";
 import Header from "../../components/Header";
 import { EuiCard, EuiFlexGroup, EuiFlexItem, EuiImage } from "@elastic/eui";
@@ -49,3 +48,4 @@ function CreateMeeting() {
 }
 
 export default CreateMeeting;
+

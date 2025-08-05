@@ -1,4 +1,3 @@
-import React from "react";
 import { EuiButton, EuiFlexGroup, EuiFlexItem, EuiImage, EuiPanel, EuiProvider, EuiTextColor } from "@elastic/eui";
 import animation from "../assets/animation.gif"
 import logo from "../assets/Logo UPI.png"
@@ -73,5 +72,6 @@ function Login() {
 
 export default Login;
 export const userRef = collection(firebaseDB, "users");
+
 
 export {};

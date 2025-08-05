@@ -3,7 +3,6 @@ import { MeetingType, UserType } from "../utils/Types";
 import useAuth from "../hooks/useAuth";
 import { useState } from "react";
 import useFetchUsers from "../hooks/useFetchUsers";
-import { useAppSelector } from "../app/hooks";
 import useToast from "../hooks/useToast";
 import moment from "moment";
 import { FieldErrorType } from "../utils/Types";
@@ -142,4 +141,5 @@ export default function EditFlyout( {closeFlyout, meetings}:{
       </EuiFlyoutBody>
     </EuiFlyout>
     )
+
 }

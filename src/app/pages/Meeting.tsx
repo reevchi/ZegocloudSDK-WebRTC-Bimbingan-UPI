@@ -77,7 +77,7 @@ export default function Meeting() {
         name:"Copy Link",
         render:(meetingId:string) => {
             return (
-            <EuiCopy textToCopy={`${process.env.REACT_APP_HOST}/join/${meetingId}`}>
+            <EuiCopy textToCopy={`${process.env.REACT_APP_HOST}join/${meetingId}`}>
                 {(copy:any)=> (
                     <EuiButtonIcon iconType="copy" onClick={copy} display="base" aria-label="Meeting-Copy"/>
                 )}
@@ -108,5 +108,6 @@ export default function Meeting() {
     </div>
     )
 }
+
 
 export {}

@@ -4,7 +4,6 @@ import { useDispatch } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import { firebaseAuth } from "../utils/FirebaseConfig";
 import { setUser } from "../app/slices/AuthSlice";
-import { unsubscribe } from "diagnostics_channel";
 
 
 function useAuth () {
@@ -30,5 +29,6 @@ function useAuth () {
 }
 
 export default useAuth;
+
 
 export {};

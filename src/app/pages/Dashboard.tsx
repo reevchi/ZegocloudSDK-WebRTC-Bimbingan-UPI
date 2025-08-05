@@ -1,4 +1,3 @@
-import React from "react";
 import useAuth from "../../hooks/useAuth";
 import { useNavigate } from "react-router-dom";
 import { EuiCard, EuiFlexGroup, EuiFlexItem, EuiImage } from "@elastic/eui";
@@ -66,6 +65,7 @@ function Dashboard() {
 
 
 export default Dashboard;
+
 
 
 export{};
